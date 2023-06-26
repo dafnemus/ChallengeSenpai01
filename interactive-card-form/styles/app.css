@@ -40,9 +40,12 @@
 }
 
 .complete-container {
+  display: none;
+}
+
+.complete-container-active {
   align-items: center;
   display: flex;
-  display: none;
   flex-direction: column;
   gap: 55px;
   padding-top: 130px;
@@ -99,10 +102,17 @@
   gap: 10px;
 }
 
-.error {
+.error-message {
+  display: none;
   color: var(--red);
-  font-size: 1rem;
-  visibility: hidden;
+}
+
+.error-message-active {
+  display: block;
+}
+
+.input-error {
+  border: 1px solid var(--red);
 }
 
 .form {
