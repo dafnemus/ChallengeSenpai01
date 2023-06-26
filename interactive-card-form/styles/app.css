@@ -102,13 +102,8 @@
   gap: 10px;
 }
 
-.error-message {
-  display: none;
+.error {
   color: var(--red);
-}
-
-.error-message-active {
-  display: block;
 }
 
 .input-error {
