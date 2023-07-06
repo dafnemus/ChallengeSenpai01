@@ -68,25 +68,25 @@ function isValidYear(year) {
 
 form.addEventListener("submit", (e) => {
   e.preventDefault();
-  if (!isValidCVC(cvc.value)) {
-    cvcError.classList.add("error");
-    cvcError.innerText = "error";
-  }
+  // if (!isValidCVC(cvc.value)) {
+  //   cvcError.classList.add("error");
+  //   cvcError.innerText = "error";
+  // }
 
-  if (!isValidCardNumber(cvc.value)) {
-    cardNumberError.classList.add("error");
-    cardNumberError.innerText = "error";
-  }
+  // if (!isValidCardNumber(cvc.value)) {
+  //   cardNumberError.classList.add("error");
+  //   cardNumberError.innerText = "error";
+  // }
 
-  if (!isValidMonth(cvc.value)) {
-    monthError.classList.add("error");
-    monthError.innerText = "error";
-  }
+  // if (!isValidMonth(cvc.value)) {
+  //   monthError.classList.add("error");
+  //   monthError.innerText = "error";
+  // }
 
-  if (!isValidYear(cvc.value)) {
-    yearError.classList.add("error");
-    yearrror.innerText = "error";
-  }
+  // if (!isValidYear(cvc.value)) {
+  //   yearError.classList.add("error");
+  //   yearrror.innerText = "error";
+  // }
 
   document
     .getElementById("complete")
